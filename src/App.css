@@ -1,0 +1,61 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 30px;
+}
+
+/* Title */
+.header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+
+}
+
+/* Table */
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  min-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header table */
+.book-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Table text */
+.book-table th,
+.book-table td {
+  padding: 12px 15px;
+}
+
+/* Text content */
+.book-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Text content hover */
+.book-table tbody tr:hover {
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
+
+/* Hiệu ứng zebra-striping cho các hàng chẵn */
+.book-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* Kiểu cho hàng cuối cùng */
+.book-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
