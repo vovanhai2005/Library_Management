@@ -28,6 +28,25 @@ function App() {
 
     fetchData();
   }, []);
+
+  const handleInputChange = (e) => {
+      const {name , value} = e.target;
+      setNewBooks({
+        ...newBooks,
+        [name]: value
+      });
+  };
+
+  const handleButtonClick = () => {
+    setBooks([...books, newBooks]);
+    setNewBooks({
+      tên_sách: '',
+      tác_giả: '',
+      tình_trạng: '',
+      số_lượng: '',
+      thể_loại: ''
+    })
+  };
   
   return (
     <div className="App">
@@ -40,7 +59,7 @@ function App() {
             name="tên_sách"
             placeholder="Tên sách"
             value={newBooks.tên_sách}
-            >
+            onChange={handleInputChange}>
           </input>
 
           {/* Tác giả */}
@@ -49,7 +68,7 @@ function App() {
             name="tác_giả"
             placeholder="Tác giả"
             value={newBooks.tác_giả}
-            >
+            onChange={handleInputChange}>
           </input>
           
           {/* Tình trạng */}
@@ -58,7 +77,7 @@ function App() {
             name="tình_trạng"
             placeholder="Tình trạng"
             value={newBooks.tình_trạng}
-            >
+            onChange={handleInputChange}>
           </input>
           
           {/* Số lượng */}
@@ -67,7 +86,7 @@ function App() {
             name="số_lượng"
             placeholder="Số lượng"
             value={newBooks.số_lượng}
-            >
+            onChange={handleInputChange}>
           </input>
 
           {/* Thể loại */}
@@ -76,10 +95,10 @@ function App() {
             name="thể_loại"
             placeholder="Thể loại"
             value={newBooks.thể_loại}
-            >
+            onChange={handleInputChange}>
           </input>
 
-          <button className="add-button">
+          <button onClick={handleButtonClick} className="add-button">
             <img src={plusIcon} alt="Thêm sách" className="icon" />
             <span>Thêm sách</span>
           </button>
