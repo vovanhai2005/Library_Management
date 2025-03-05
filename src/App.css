@@ -6,10 +6,56 @@
 
 /* Title */
 .header {
-  text-align: center;
-  color: #333;
-  margin-bottom: 20px;
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
 
+.header .header-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Input place */
+.add-book-form {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Khoảng cách giữa các phần tử */
+  width: 100%; /* Chiếm toàn bộ chiều rộng của container */
+}
+
+.add-book-form input {
+  flex: 1; /* Chia đều không gian cho các ô input */
+  padding: 10px;
+  height: 25px; /* Chiều cao cố định */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-button {
+  flex: 0 0 150px; /* Không co giãn, chiều rộng cố định 150px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #009879;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 48px; /* Chiều cao bằng với input */
+}
+
+.add-button:hover {
+  cursor: pointer;
+  background-color: #007f63;
+}
+
+.icon {
+  align-items: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
 
 /* Table */
@@ -58,4 +104,3 @@
 .book-table tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
 }
-
