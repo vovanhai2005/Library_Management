@@ -29,15 +29,13 @@ function App() {
     fetchData();
   }, []);
 
-  const handleInputChange = (e) => {
-      const {name , value} = e.target;
-      setNewBooks({
-        ...newBooks,
-        [name]: value
-      });
-  };
-
   const handleButtonClick = () => {
+    if (newBooks.tên_sách.trim() === '' || newBooks.tác_giả.trim() === '' || 
+          newBooks.tình_trạng.trim() === '' || newBooks.số_lượng.trim() === '' || 
+            newBooks.thể_loại.trim() === '') {      
+      alert('Vui lòng nhập đầy đủ thông tin sách');
+      return;
+    }
     setBooks([...books, newBooks]);
     setNewBooks({
       tên_sách: '',
@@ -46,6 +44,14 @@ function App() {
       số_lượng: '',
       thể_loại: ''
     })
+  };
+
+  const handleInputChange = (e) => {
+    const {name , value} = e.target;
+    setNewBooks({
+      ...newBooks,
+      [name]: value
+    });
   };
   
   return (
