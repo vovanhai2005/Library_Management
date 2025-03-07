@@ -119,6 +119,7 @@ function App() {
             <th>Tình trạng</th>
             <th>Số lượng</th>
             <th>Thể loại</th>
+            <th>Xóa</th>
           </tr>
         </thead>
         <tbody>
