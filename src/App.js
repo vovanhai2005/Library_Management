@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css'; // Import file CSS
+import plusIcon from './add.png';
+import cancelIcon from './cancel.png';
 
 function BookList() {
   const [books, setBooks] = useState([]);
@@ -48,6 +50,14 @@ function BookList() {
     window.alert('Thêm sách thành công!');
   };
 
+  const handleDeleteClick = (index) => {
+    if (window.confirm('Bạn có chắc chắn muốn xóa sách này không?')) {
+      const newBooks = [...books];
+      newBooks.splice(index, 1);
+      setBooks(newBooks);
+    }
+  }
+
   const handleInputChange = (e) => {
     const {name , value} = e.target;
     setNewBooks({
@@ -67,10 +77,24 @@ function BookList() {
     });
   };
 
+  const toggleCancelForm = () => {
+    if (window.confirm("Bạn có chắc chắn muốn hủy bỏ thêm sách?")) {
+      setShowAddForm(!showAddForm);
+    }
+  }
+
   return (
     <div className="App">
       <header className="header">
         <h1 className="header-title">Quản Lý Thư Viện</h1>
+        {/* Ẩn nút toggle khi form đang hiển thị */}
+        {!showAddForm && (
+          <button onClick={toggleAddForm} className="add-button toggle-button">
+            <img src={plusIcon} alt="Thêm sách" className="icon" />
+            <span>Thêm Sách</span>
+          </button>
+        )}
+        {showAddForm && (
           <div className="add-book-form">
             {/* Tên sách */}
             <input
@@ -120,7 +144,12 @@ function BookList() {
             <button onClick={handleAddClick} className="add-button">
               <span>Xác nhận</span>
             </button>
+
+            <button onClick={toggleCancelForm} className="cancel-button">
+              <img src={cancelIcon} alt="Xóa lựa chọn" className="icon"></img>
+            </button>
           </div>
+        )}
       </header>
       <table className="book-table">
         <thead>
@@ -141,6 +170,11 @@ function BookList() {
               <td>{book.tình_trạng}</td>
               <td>{book.số_lượng}</td>
               <td>{book.thể_loại}</td>
+              <td>
+                <button className="delete-button" onClick={() => handleDeleteClick(index)}>
+                  Xóa
+                </button>
+              </td>
             </tr>
           ))}
         </tbody>
