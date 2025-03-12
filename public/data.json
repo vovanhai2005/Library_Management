@@ -1,0 +1,142 @@
+[
+  {
+    "tên_sách": "Đắc Nhân Tâm",
+    "tác_giả": "Dale Carnegie",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 10,
+    "thể_loại": "Kỹ năng sống"
+  },
+  {
+    "tên_sách": "Nhà Giả Kim",
+    "tác_giả": "Paulo Coelho",
+    "tình_trạng": "Hết hàng",
+    "số_lượng": 0,
+    "thể_loại": "Tiểu thuyết"
+  },
+  {
+    "tên_sách": "Harry Potter và Hòn đá Phù thủy",
+    "tác_giả": "J.K. Rowling",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 5,
+    "thể_loại": "Fantasy"
+  },
+  {
+    "tên_sách": "Lược sử thời gian",
+    "tác_giả": "Stephen Hawking",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 3,
+    "thể_loại": "Khoa học"
+  },
+  {
+    "tên_sách": "Chiến tranh và Hòa bình",
+    "tác_giả": "Leo Tolstoy",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 7,
+    "thể_loại": "Tiểu thuyết lịch sử"
+  },
+  {
+    "tên_sách": "7 Thói quen của người thành đạt",
+    "tác_giả": "Stephen R. Covey",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 8,
+    "thể_loại": "Kỹ năng sống"
+  },
+  {
+    "tên_sách": "Người giàu có nhất thành Babylon",
+    "tác_giả": "George S. Clason",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 6,
+    "thể_loại": "Tài chính cá nhân"
+  },
+  {
+    "tên_sách": "Sapiens: Lược sử loài người",
+    "tác_giả": "Yuval Noah Harari",
+    "tình_trạng": "Hết hàng",
+    "số_lượng": 0,
+    "thể_loại": "Lịch sử"
+  },
+  {
+    "tên_sách": "Đọc vị bất kỳ ai",
+    "tác_giả": "David J. Lieberman",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 4,
+    "thể_loại": "Tâm lý học"
+  },
+  {
+    "tên_sách": "Dế Mèn phiêu lưu ký",
+    "tác_giả": "Tô Hoài",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 9,
+    "thể_loại": "Văn học thiếu nhi"
+  },
+  {
+    "tên_sách": "Tôi tài giỏi, bạn cũng thế!",
+    "tác_giả": "Adam Khoo",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 12,
+    "thể_loại": "Kỹ năng sống"
+  },
+  {
+    "tên_sách": "Đời ngắn đừng ngủ dài",
+    "tác_giả": "Robin Sharma",
+    "tình_trạng": "Hết hàng",
+    "số_lượng": 0,
+    "thể_loại": "Self-help"
+  },
+  {
+    "tên_sách": "Trên đường băng",
+    "tác_giả": "Tony Buổi Sáng",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 15,
+    "thể_loại": "Kỹ năng sống"
+  },
+  {
+    "tên_sách": "Cà phê cùng Tony",
+    "tác_giả": "Tony Buổi Sáng",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 7,
+    "thể_loại": "Kỹ năng sống"
+  },
+  {
+    "tên_sách": "Tuổi trẻ đáng giá bao nhiêu",
+    "tác_giả": "Rosie Nguyễn",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 10,
+    "thể_loại": "Self-help"
+  },
+  {
+    "tên_sách": "Bắt trẻ đồng xanh",
+    "tác_giả": "J.D. Salinger",
+    "tình_trạng": "Hết hàng",
+    "số_lượng": 0,
+    "thể_loại": "Tiểu thuyết"
+  },
+  {
+    "tên_sách": "Đại gia Gatsby",
+    "tác_giả": "F. Scott Fitzgerald",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 6,
+    "thể_loại": "Tiểu thuyết"
+  },
+  {
+    "tên_sách": "Những người khốn khổ",
+    "tác_giả": "Victor Hugo",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 4,
+    "thể_loại": "Tiểu thuyết lịch sử"
+  },
+  {
+    "tên_sách": "Bố già",
+    "tác_giả": "Mario Puzo",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 8,
+    "thể_loại": "Tiểu thuyết"
+  },
+  {
+    "tên_sách": "Không gia đình",
+    "tác_giả": "Hector Malot",
+    "tình_trạng": "Còn hàng",
+    "số_lượng": 5,
+    "thể_loại": "Văn học thiếu nhi"
+  } 
+]

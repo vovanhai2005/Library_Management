@@ -1,0 +1,155 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 30px;
+}
+
+/* Title */
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.header .header-title {
+  font-size: 28px;
+  text-align: center;
+}
+
+/* Input place */
+.add-book-form {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  width: 100%; 
+}
+
+.add-book-form input {
+  flex: 1; /* Chia đều không gian cho các ô input */
+  padding: 10px;
+  height: 25px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-button {
+  flex: 0 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #009879;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 48px; 
+}
+
+.add-button:hover {
+  cursor: pointer;
+  background-color: #007f63;
+}
+
+.cancel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #009879;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 48px; /* Chiều cao bằng với input */
+}
+
+.cancel-button:hover {
+  cursor: pointer;
+  background-color: #007f63;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: #007f63;
+  cursor: pointer;
+}
+
+.toggle-button .icon {
+  margin-right: 8px;
+}
+
+.toggle-button span {
+  margin-left: 8px;
+}
+
+.icon {
+  align-items: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+/* Table */
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  min-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header table */
+.book-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Table text */
+.book-table th,
+.book-table td {
+  padding: 12px 15px;
+}
+
+.delete-button {
+  background-color: rgb(228, 79, 79);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.delete-button:hover{
+  cursor: pointer;
+  background-color: #cc0000;
+}
+
+/* Text content */
+.book-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Text content hover */
+.book-table tbody tr:hover {
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
+
+/* Hiệu ứng zebra-striping cho các hàng chẵn */
+.book-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* Kiểu cho hàng cuối cùng */
+.book-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
