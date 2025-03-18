@@ -153,3 +153,19 @@
 .book-table tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
 }
+
+.nav-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: #009879;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #007f63;
+}

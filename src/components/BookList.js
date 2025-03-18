@@ -47,7 +47,9 @@ function BookList() {
       thể_loại: ''
     });
     setShowAddForm(false);
-    window.alert('Thêm sách thành công!');
+    if (window.confirm('Bạn có muốn thêm sách không?')) {
+      window.alert('Thêm sách thành công!');
+    }
   };
 
   const handleDeleteClick = (index) => {

@@ -1,0 +1,27 @@
+.info-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.info-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.info-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.info-section-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.info-section p {
+    margin: 5px 0;
+}

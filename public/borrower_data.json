@@ -1,0 +1,72 @@
+[
+    {
+      "tên_người_mượn": "Nguyễn Văn A",
+      "mã_số": "M001",
+      "số_điện_thoại": "0123456789",
+      "địa_chỉ": "123 Đường ABC, Quận 1, TP.HCM",
+      "sách_đang_mượn": "Đắc Nhân Tâm"
+    },
+    {
+      "tên_người_mượn": "Trần Thị B",
+      "mã_số": "M002",
+      "số_điện_thoại": "0987654321",
+      "địa_chỉ": "456 Đường XYZ, Quận 2, TP.HCM",
+      "sách_đang_mượn": "Nhà Giả Kim"
+    },
+    {
+      "tên_người_mượn": "Lê Văn C",
+      "mã_số": "M003",
+      "số_điện_thoại": "0369852147",
+      "địa_chỉ": "789 Đường DEF, Quận 3, TP.HCM",
+      "sách_đang_mượn": "Tuổi Trẻ Đáng Giá Bao Nhiêu"
+    },
+    {
+      "tên_người_mượn": "Phạm Thị D",
+      "mã_số": "M004",
+      "số_điện_thoại": "0587412369",
+      "địa_chỉ": "321 Đường GHI, Quận 4, TP.HCM",
+      "sách_đang_mượn": "Cà Phê Cùng Tony"
+    },
+    {
+      "tên_người_mượn": "Hoàng Văn E",
+      "mã_số": "M005",
+      "số_điện_thoại": "0741258963",
+      "địa_chỉ": "654 Đường KLM, Quận 5, TP.HCM",
+      "sách_đang_mượn": "Tôi Tài Giỏi, Bạn Cũng Thế"
+    },
+    {
+      "tên_người_mượn": "Võ Thị F",
+      "mã_số": "M006",
+      "số_điện_thoại": "0912345678",
+      "địa_chỉ": "987 Đường NOP, Quận 6, TP.HCM",
+      "sách_đang_mượn": "Bố Già"
+    },
+    {
+      "tên_người_mượn": "Đặng Văn G",
+      "mã_số": "M007",
+      "số_điện_thoại": "0888999777",
+      "địa_chỉ": "555 Đường QRS, Quận 7, TP.HCM",
+      "sách_đang_mượn": "Không Gia Đình"
+    },
+    {
+      "tên_người_mượn": "Bùi Thị H",
+      "mã_số": "M008",
+      "số_điện_thoại": "0777666555",
+      "địa_chỉ": "222 Đường TUV, Quận 8, TP.HCM",
+      "sách_đang_mượn": "Chiến Binh Cầu Vồng"
+    },
+    {
+      "tên_người_mượn": "Ngô Văn I",
+      "mã_số": "M009",
+      "số_điện_thoại": "0666555444",
+      "địa_chỉ": "111 Đường WXY, Quận 9, TP.HCM",
+      "sách_đang_mượn": "Lược Sử Thời Gian"
+    },
+    {
+      "tên_người_mượn": "Lý Thị K",
+      "mã_số": "M010",
+      "số_điện_thoại": "0555444333",
+      "địa_chỉ": "999 Đường ZZZ, Quận 10, TP.HCM",
+      "sách_đang_mượn": "Sapiens: Lược Sử Loài Người"
+    }
+  ]
